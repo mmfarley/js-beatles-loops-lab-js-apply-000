@@ -16,7 +16,7 @@ const facts = ["He was the last Beatle to learn to drive", "He was never a veget
 function johnLennonFacts(facts){
   var i = 0
   while (i < facts.length){
-    facts[i] = `${facts[i]}!!!`
+    facts[i] = `${facts[i]}!!!` //add exclamation pts
     i++
   }
   return facts
@@ -24,6 +24,7 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(n){
   var empty = []
+  //fills empty and increments n while n<15
   do{
     empty.push("I love the Beatles!")
     n++
